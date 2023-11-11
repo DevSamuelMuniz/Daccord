@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="options_1">
+        <item>Sim, já toco violão</item>
+        <item>Já toquei, mas desisti</item>
+        <item>Não, mas acompanho</item>
+        <item>Não, nunca toquei antes</item>
+    </array>
+
+    <array name="options_2">
+        <item>A, D, E</item>
+        <item>Dm, Gb, B9, F#M</item>
+        <item>Outros</item>
+        <item>Nenhum</item>
+    </array>
+
+    <array name="options_3">
+        <item>Básico</item>
+        <item>Intermediário</item>
+        <item>Avançado</item>
+        <item>Nenhum</item>
+    </array>
+
+    <array name="options_4">
+        <item>Sim, conheço bastante</item>
+        <item>Sim, um pouco</item>
+        <item>Não, mas já olhei</item>
+        <item>Não possuo conhecimento</item>
+    </array>
+</resources>
