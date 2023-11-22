@@ -1,12 +1,12 @@
 package com.example.ichords
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatRadioButton
-
 
 class IntroActivity : AppCompatActivity() {
 
@@ -37,7 +37,7 @@ class IntroActivity : AppCompatActivity() {
         questionTextView = findViewById(R.id.questionTextView)
         answerRadioGroup = findViewById(R.id.answerRadioGroup)
         nextButton = findViewById(R.id.nextButton)
-        nextButton.isEnabled = false // Disable the button initially
+        nextButton.isEnabled = false
 
         updateQuestion()
 
@@ -52,7 +52,7 @@ class IntroActivity : AppCompatActivity() {
         }
 
         answerRadioGroup.setOnCheckedChangeListener { _, _ ->
-            nextButton.isEnabled = true // Enable the button when a radio button is selected
+            nextButton.isEnabled = true
         }
     }
 
@@ -61,16 +61,17 @@ class IntroActivity : AppCompatActivity() {
 
         answerRadioGroup.removeAllViews()
 
-        for (option in options[currentQuestionIndex]) {
-            val radioButton = AppCompatRadioButton(this)
-            radioButton.text = option
-            radioButton.layoutParams = RadioGroup.LayoutParams(
-                RadioGroup.LayoutParams.MATCH_PARENT,
-                RadioGroup.LayoutParams.WRAP_CONTENT
-            )
+        options[currentQuestionIndex].forEach { option ->
+            val radioButton = AppCompatRadioButton(this).apply {
+                text = option
+                layoutParams = RadioGroup.LayoutParams(
+                    RadioGroup.LayoutParams.MATCH_PARENT,
+                    RadioGroup.LayoutParams.WRAP_CONTENT
+                )
+            }
             answerRadioGroup.addView(radioButton)
         }
 
-        nextButton.isEnabled = false // Disable the button after updating the question
+        nextButton.isEnabled = false
     }
 }

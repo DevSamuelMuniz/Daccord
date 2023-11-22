@@ -23,8 +23,8 @@
         android:id="@+id/botaoTrilha"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:background="@color/white"
-        android:padding="5dp"
+        android:background="@color/none"
+        android:padding="3dp"
         android:scaleType="centerInside"
         android:src="@drawable/trilhaicon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.92" />
+        app:layout_constraintGuide_percent="0.93" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
