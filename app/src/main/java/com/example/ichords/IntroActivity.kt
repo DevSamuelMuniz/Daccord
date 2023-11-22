@@ -1,6 +1,8 @@
 package com.example.ichords
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.MediaStore.Audio.Radio
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
@@ -27,12 +29,21 @@ class IntroActivity : AppCompatActivity() {
     private lateinit var questionTextView: TextView
     private lateinit var answerRadioGroup: RadioGroup
     private lateinit var nextButton: Button
+    private lateinit var button1: RadioButton
+    private lateinit var button2: RadioButton
+    private lateinit var button3: RadioButton
+    private lateinit var button4: RadioButton
 
     private var currentQuestionIndex = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro)
+
+        button1 = findViewById(R.id.answer1RadioButton)
+        button2 = findViewById(R.id.answer2RadioButton)
+        button3 = findViewById(R.id.answer3RadioButton)
+        button4 = findViewById(R.id.answer4RadioButton)
 
         questionTextView = findViewById(R.id.questionTextView)
         answerRadioGroup = findViewById(R.id.answerRadioGroup)
@@ -44,9 +55,16 @@ class IntroActivity : AppCompatActivity() {
         nextButton.setOnClickListener {
             currentQuestionIndex++
 
-            if (currentQuestionIndex >= questions.size) {
-                return@setOnClickListener
+            nextButton.setOnClickListener {
+                if (currentQuestionIndex < questions.size) {
+                    currentQuestionIndex++
+                    updateQuestion()
+                } else {
+                    val intent = Intent(this, IntroEstiloActivity::class.java)
+                    startActivity(intent)
+                }
             }
+
 
             updateQuestion()
         }
@@ -59,19 +77,19 @@ class IntroActivity : AppCompatActivity() {
     private fun updateQuestion() {
         questionTextView.text = questions[currentQuestionIndex]
 
-        answerRadioGroup.removeAllViews()
+        val optionsForCurrentQuestion = options[currentQuestionIndex]
+        button1.text = optionsForCurrentQuestion[0]
+        button2.text = optionsForCurrentQuestion[1]
+        button3.text = optionsForCurrentQuestion[2]
+        button4.text = optionsForCurrentQuestion[3]
 
-        options[currentQuestionIndex].forEach { option ->
-            val radioButton = AppCompatRadioButton(this).apply {
-                text = option
-                layoutParams = RadioGroup.LayoutParams(
-                    RadioGroup.LayoutParams.MATCH_PARENT,
-                    RadioGroup.LayoutParams.WRAP_CONTENT
-                )
-            }
-            answerRadioGroup.addView(radioButton)
-        }
+        button1.isChecked = false
+        button2.isChecked = false
+        button3.isChecked = false
+        button4.isChecked = false
 
         nextButton.isEnabled = false
     }
+
+
 }

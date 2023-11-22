@@ -67,12 +67,7 @@ tools:context=".IntroActivity">
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:padding="16dp"
-        android:button="@null"
-        android:textColor="@color/color_button"
-        android:background="@drawable/bg_button"
-        android:textSize="16dp" />
+        style="@style/MeuBotao" />
 </RadioGroup>
 
 <androidx.constraintlayout.widget.Guideline
