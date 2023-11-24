@@ -25,9 +25,10 @@
         android:layout_marginTop="160dp">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="91dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginTop="50dp"
+            android:layout_gravity="center"
             android:src="@drawable/rosto"
             tools:ignore="ContentDescription"
             tools:srcCompat="@drawable/rosto" />
@@ -35,8 +36,8 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:gravity="center"
@@ -48,7 +49,7 @@
             android:id="@+id/bolinha3"
             android:layout_width="match_parent"
             android:layout_height="14dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="70dp"
             android:src="@drawable/a3por4"
             tools:ignore="ContentDescription"
             tools:srcCompat="@drawable/a3por4" />
@@ -60,7 +61,7 @@
             android:padding="70dp"
             android:rotation="180"
             android:layout_marginLeft="290dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:background="@color/white"
             android:scaleType="centerInside"
             android:src="@drawable/round_keyboard_arrow_right_24"

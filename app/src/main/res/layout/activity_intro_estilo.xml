@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IntroActivity">
+    tools:context=".IntroEstiloActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -22,7 +22,7 @@
         android:textAlignment="center"
         android:textSize="28sp"
         android:textColor="@color/blue"
-        android:text="@string/pergunta"
+        android:text="@string/txt_pergunta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guideline" />

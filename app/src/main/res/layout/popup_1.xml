@@ -25,23 +25,24 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
             android:src="@drawable/trilha"
             tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="50dp"
             android:gravity="center"
             android:text="@string/tv1"
             android:textColor="@color/blue"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/bolinha1"
@@ -59,7 +60,7 @@
             android:padding="70dp"
             android:rotation="180"
             android:layout_marginLeft="290dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:background="@color/white"
             android:scaleType="centerInside"
             android:src="@drawable/round_keyboard_arrow_right_24"

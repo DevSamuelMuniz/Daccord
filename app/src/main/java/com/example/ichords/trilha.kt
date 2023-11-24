@@ -10,9 +10,5 @@ class trilha : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trilha)
 
-        val backButton = findViewById<View>(R.id.back)
-        backButton.setOnClickListener {
-            onBackPressed()
-        }
     }
 }

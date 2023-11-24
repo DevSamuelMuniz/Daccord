@@ -5,6 +5,18 @@
     <string name="btnAvançar">Avançar</string>
     <string name="tv2"><b>Essa trilha de conhecimento usa a metodologia Suzuki.</b>\nQue se baseia na escuta ativa, imitação e revisão</string>
     <string name="tv3">A <b>escuta ativa</b> é essencial para desenvolver um ouvido musical apurado.</string>
-    <string name="pergunta"><b>Quais são seus estilos</b> musicais favoritos?</string>
+    <string name="tv4"><b>Parece que você entendeu nossa metodologia!</b> Vamos fazer um teste de nivelamento.</string>
 
+
+
+    //Strings da tela de "Resultado Teste".
+    <string name="txt_resultado_teste"><b>Parabéns!</b>\n Você finalizou o teste e começará a trilha de conhecimento a partir do \n<b>módulo 1</b></string>
+    <string name="btn_resultado_teste">Ir para trilha</string>
+
+    <string name="question_1"><b>Você</b> já toca ou tocou <b>violão?</b></string>
+    <string name="question_2"> <b>Quais</b> acordes <b>você conhece ou já tocou?</b></string>
+    <string name="question_3"><b>Qual é o seu</b> nível de experiência <b>em leitura de cifras ou tablaturas?</b></string>
+    <string name="question_4"><b>Você tem algum conhecimento prévio sobre</b> teoria musical?</string>
+    
+    <string name="txt_pergunta"><b>Quais são seus estilos</b> musicais favoritos?</string>
 </resources>

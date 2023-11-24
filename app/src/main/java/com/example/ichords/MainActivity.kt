@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         const val PREFERENCES_NAME = "ashe728y9e2h387"
-        const val EMAIL_KEY = "98ueh18e"
+        const val EMAIL_KEY = "98ueg7879h18e"
         const val EMAIL_KEY_EXTRA = "98392h37h923e-1093ie"
     }
 
