@@ -59,9 +59,10 @@
 
         </activity>
 
-        <activity
-            android:name=".IntroEstiloActivity">
+        <activity android:name=".IntroEstiloActivity">
+
         </activity>
+
 
 
 

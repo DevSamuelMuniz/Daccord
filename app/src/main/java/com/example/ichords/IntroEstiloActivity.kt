@@ -9,4 +9,5 @@ class IntroEstiloActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro_estilo)
     }
+
 }

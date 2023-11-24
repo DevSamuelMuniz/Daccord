@@ -2,7 +2,6 @@ package com.example.ichords
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.MediaStore.Audio.Radio
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
@@ -53,20 +52,13 @@ class IntroActivity : AppCompatActivity() {
         updateQuestion()
 
         nextButton.setOnClickListener {
-            currentQuestionIndex++
-
-            nextButton.setOnClickListener {
-                if (currentQuestionIndex < questions.size) {
-                    currentQuestionIndex++
-                    updateQuestion()
-                } else {
-                    val intent = Intent(this, IntroEstiloActivity::class.java)
-                    startActivity(intent)
-                }
+            if (currentQuestionIndex < questions.size) {
+                currentQuestionIndex++
+                updateQuestion()
+            } else {
+                val intent = Intent(this, IntroEstiloActivity::class.java)
+                startActivity(intent)
             }
-
-
-            updateQuestion()
         }
 
         answerRadioGroup.setOnCheckedChangeListener { _, _ ->
@@ -90,6 +82,4 @@ class IntroActivity : AppCompatActivity() {
 
         nextButton.isEnabled = false
     }
-
-
 }
