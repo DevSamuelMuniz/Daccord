@@ -51,10 +51,14 @@ class IntroActivity : AppCompatActivity() {
 
         updateQuestion()
 
+
         nextButton.setOnClickListener {
             if (currentQuestionIndex < questions.size) {
                 currentQuestionIndex++
                 updateQuestion()
+
+                val intent = Intent(this, IntroEstiloActivity::class.java)
+                startActivity(intent)
             } else {
                 val intent = Intent(this, IntroEstiloActivity::class.java)
                 startActivity(intent)
