@@ -1,13 +1,11 @@
 package com.example.ichords
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-class IntroEstiloActivity : AppCompatActivity() {
-
+class EstiloMusical : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_intro_estilo)
+        setContentView(R.layout.activity_estilo_musical)
     }
-
 }

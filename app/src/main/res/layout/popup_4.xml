@@ -28,7 +28,7 @@
             android:id="@+id/textView4"
             android:layout_marginTop="50dp"
             android:layout_width="300dp"
-            android:layout_height="100dp"
+            android:layout_height="110dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:gravity="center"
@@ -45,7 +45,7 @@
             android:backgroundTint="@color/blue"
             android:layout_marginLeft="120dp"
             android:layout_marginRight="120dp"
-            android:layout_marginTop="76dp">
+            android:layout_marginTop="66dp">
 
         </Button>
 

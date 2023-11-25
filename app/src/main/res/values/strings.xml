@@ -8,7 +8,6 @@
     <string name="tv4"><b>Parece que você entendeu nossa metodologia!</b> Vamos fazer um teste de nivelamento.</string>
 
 
-
     //Strings da tela de "Resultado Teste".
     <string name="txt_resultado_teste"><b>Parabéns!</b>\n Você finalizou o teste e começará a trilha de conhecimento a partir do \n<b>módulo 1</b></string>
     <string name="btn_resultado_teste">Ir para trilha</string>
@@ -19,4 +18,7 @@
     <string name="question_4"><b>Você tem algum conhecimento prévio sobre</b> teoria musical?</string>
 
     <string name="txt_pergunta"><b>Quais são seus estilos</b> musicais favoritos?</string>
+    <string name="titulo1"><b>Conhecendo a anotomia \ndo violão</b></string>
+    <string name="perguntaEstilo"><b>Quais são seus estilos</b> musicais favoritos?</string>
+    <string name="btnFinalizar">Finalizar</string>
 </resources>

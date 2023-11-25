@@ -1,7 +1,9 @@
 package com.example.ichords
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
@@ -57,13 +59,14 @@ class IntroActivity : AppCompatActivity() {
                 currentQuestionIndex++
                 updateQuestion()
 
-                val intent = Intent(this, IntroEstiloActivity::class.java)
-                startActivity(intent)
             } else {
-                val intent = Intent(this, IntroEstiloActivity::class.java)
+
+                val intent = Intent(this, EstiloMusical::class.java)
                 startActivity(intent)
             }
         }
+
+
 
         answerRadioGroup.setOnCheckedChangeListener { _, _ ->
             nextButton.isEnabled = true
@@ -71,19 +74,21 @@ class IntroActivity : AppCompatActivity() {
     }
 
     private fun updateQuestion() {
-        questionTextView.text = questions[currentQuestionIndex]
+        if (questions.isNotEmpty() && currentQuestionIndex < questions.size) {
+            questionTextView.text = questions[currentQuestionIndex]
 
-        val optionsForCurrentQuestion = options[currentQuestionIndex]
-        button1.text = optionsForCurrentQuestion[0]
-        button2.text = optionsForCurrentQuestion[1]
-        button3.text = optionsForCurrentQuestion[2]
-        button4.text = optionsForCurrentQuestion[3]
+            val optionsForCurrentQuestion = options[currentQuestionIndex]
+            button1.text = optionsForCurrentQuestion[0]
+            button2.text = optionsForCurrentQuestion[1]
+            button3.text = optionsForCurrentQuestion[2]
+            button4.text = optionsForCurrentQuestion[3]
 
-        button1.isChecked = false
-        button2.isChecked = false
-        button3.isChecked = false
-        button4.isChecked = false
+            button1.isChecked = false
+            button2.isChecked = false
+            button3.isChecked = false
+            button4.isChecked = false
 
-        nextButton.isEnabled = false
+            nextButton.isEnabled = false
+        }
     }
 }
