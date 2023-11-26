@@ -14,6 +14,7 @@ tools:context=".IntroActivity">
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.1997264" />
 
+
 <TextView
     android:id="@+id/questionTextView"
     android:layout_width="0dp"
@@ -27,48 +28,47 @@ tools:context=".IntroActivity">
     app:layout_constraintTop_toTopOf="@id/guideline"
     tools:text="Meu enunciado vem aqui.." />
 
-<RadioGroup
-    android:id="@+id/answerRadioGroup"
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:padding="16dp"
-    app:layout_constraintBottom_toTopOf="@id/nextButton"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/questionTextView">
+    <RadioGroup
+        android:id="@+id/answerRadioGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10">
 
-    <androidx.appcompat.widget.AppCompatRadioButton
-        android:id="@+id/answer1RadioButton"
-        tools:text="1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MeuBotao"/>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/answer1RadioButton"
+            style="@style/MeuBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="1" />
 
-    <androidx.appcompat.widget.AppCompatRadioButton
-        android:id="@+id/answer2RadioButton"
-        tools:text="2"
-        android:layout_marginTop="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MeuBotao"/>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/answer2RadioButton"
+            style="@style/MeuBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="2" />
 
-    <androidx.appcompat.widget.AppCompatRadioButton
-        android:id="@+id/answer3RadioButton"
-        tools:text="3"
-        android:layout_marginTop="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MeuBotao"
-        />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/answer3RadioButton"
+            style="@style/MeuBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="3" />
 
-    <androidx.appcompat.widget.AppCompatRadioButton
-        android:id="@+id/answer4RadioButton"
-        tools:text="4"
-        android:layout_marginTop="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/MeuBotao" />
-</RadioGroup>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/answer4RadioButton"
+            style="@style/MeuBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="4" />
+    </RadioGroup>
 
 <androidx.constraintlayout.widget.Guideline
     android:id="@+id/guideline2"
@@ -82,11 +82,18 @@ tools:context=".IntroActivity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="@string/btnAvançar"
         android:backgroundTint="@color/blue"
+        android:text="@string/btnAvançar"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

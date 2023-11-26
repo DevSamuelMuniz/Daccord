@@ -20,5 +20,10 @@ class popup3 : AppCompatActivity() {
             overridePendingTransition(0,0)
         }
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(0, 0)
+    }
+
 
 }

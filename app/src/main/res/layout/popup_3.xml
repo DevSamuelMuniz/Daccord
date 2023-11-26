@@ -19,8 +19,9 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical"
         android:layout_marginTop="160dp">
 
@@ -60,7 +61,7 @@
             android:layout_height="54dp"
             android:padding="70dp"
             android:rotation="180"
-            android:layout_marginLeft="290dp"
+            android:layout_marginLeft="100dp"
             android:layout_marginTop="60dp"
             android:background="@color/white"
             android:scaleType="centerInside"

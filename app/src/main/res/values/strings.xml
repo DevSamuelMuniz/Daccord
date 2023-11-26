@@ -21,4 +21,5 @@
     <string name="titulo1"><b>Conhecendo a anotomia \ndo violão</b></string>
     <string name="perguntaEstilo"><b>Quais são seus estilos</b> musicais favoritos?</string>
     <string name="btnFinalizar">Finalizar</string>
+    <string name="barTrilha">Trilha</string>
 </resources>

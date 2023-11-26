@@ -2,9 +2,11 @@ package com.example.ichords
 
 import android.content.ContentValues.TAG
 import android.content.Intent
+import android.graphics.PorterDuff
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ProgressBar
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
@@ -53,20 +55,16 @@ class IntroActivity : AppCompatActivity() {
 
         updateQuestion()
 
-
         nextButton.setOnClickListener {
             if (currentQuestionIndex < questions.size) {
                 currentQuestionIndex++
                 updateQuestion()
 
             } else {
-
                 val intent = Intent(this, EstiloMusical::class.java)
                 startActivity(intent)
             }
         }
-
-
 
         answerRadioGroup.setOnCheckedChangeListener { _, _ ->
             nextButton.isEnabled = true

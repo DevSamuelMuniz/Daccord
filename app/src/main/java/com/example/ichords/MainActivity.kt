@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     private var isFirstClick = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

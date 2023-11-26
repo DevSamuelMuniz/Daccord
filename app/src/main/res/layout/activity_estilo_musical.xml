@@ -21,8 +21,9 @@
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/popButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -34,8 +35,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/sertanejoButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -47,8 +49,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/sambaButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -60,8 +63,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/mpbButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -73,8 +77,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/indieButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -86,8 +91,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/metalButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -99,8 +105,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/forroButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -112,8 +119,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/bregaButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -125,8 +133,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         tools:ignore="MissingConstraints" />
 
-    <RadioButton
-        android:button="@null"
+    <ToggleButton
+        android:textOn=""
+        android:textOff=""
         android:id="@+id/gospelButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
@@ -139,6 +148,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/finishButton"
         android:layout_width="149dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/blue"

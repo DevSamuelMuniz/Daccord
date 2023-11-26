@@ -20,4 +20,9 @@ class ResultadoTeste : AppCompatActivity() {
             startActivity(intent)
         }
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(0, 0)
+    }
+
 }

@@ -19,8 +19,9 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical"
         android:layout_marginTop="160dp">
 
@@ -53,7 +54,7 @@
             android:id="@+id/bolinha4"
             android:layout_width="match_parent"
             android:layout_height="14dp"
-            android:layout_marginTop="68dp"
+            android:layout_marginTop="65.8dp"
             android:src="@drawable/a4por4"
             tools:ignore="ContentDescription"
             tools:srcCompat="@drawable/a4por4" />

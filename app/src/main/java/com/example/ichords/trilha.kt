@@ -10,5 +10,11 @@ class trilha : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.trilha)
 
+
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(0, 0)
+    }
+
 }
