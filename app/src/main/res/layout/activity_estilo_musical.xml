@@ -21,117 +21,117 @@
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/popButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@drawable/bg_button"
+        android:background="@drawable/bg_pop"
         android:scaleType="centerInside"
-        android:src="@drawable/pop"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/sertanejoButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_sertanejo"
         android:scaleType="centerInside"
-        android:src="@drawable/sertanejo"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/sambaButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_samba"
         android:scaleType="centerInside"
-        android:src="@drawable/samba"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/mpbButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_mpb"
         android:scaleType="centerInside"
-        android:src="@drawable/mpb"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/indieButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_indie"
         android:scaleType="centerInside"
-        android:src="@drawable/indie"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/metalButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_metal"
         android:scaleType="centerInside"
-        android:src="@drawable/metal"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/forroButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_forro"
         android:scaleType="centerInside"
-        android:src="@drawable/forro"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/bregaButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_brega"
         android:scaleType="centerInside"
-        android:src="@drawable/brega"
         app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <RadioButton
+        android:button="@null"
         android:id="@+id/gospelButton"
         android:layout_width="150dp"
         android:layout_height="98dp"
-        android:background="@color/white"
+        android:background="@drawable/bg_gospel"
         android:scaleType="centerInside"
-        android:src="@drawable/gospel"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
