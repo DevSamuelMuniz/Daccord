@@ -26,7 +26,9 @@
 
         <include
             android:id="@+id/toolbar"
-            layout="@layout/toolbar" />
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/modulo1"
@@ -164,13 +166,15 @@
             app:srcCompat="@drawable/logotrilha" />
 
         <ImageButton
-            android:layout_width="95dp"
-            android:layout_height="95dp"
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="26dp"
             android:background="@android:color/transparent"
             android:scaleType="centerCrop"
             android:src="@drawable/conteudo"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="90dp" />
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            tools:layout_editor_absoluteX="0dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

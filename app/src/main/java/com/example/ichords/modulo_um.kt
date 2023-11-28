@@ -17,6 +17,12 @@ class modulo_um : AppCompatActivity() {
         voltar.setOnClickListener {
             val intent = Intent(this, trilha::class.java)
             startActivity(intent)
+            overridePendingTransition(0,0)
         }
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(0, 0)
+    }
+
 }
