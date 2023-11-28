@@ -22,4 +22,8 @@
     <string name="perguntaEstilo"><b>Quais são seus estilos</b> musicais favoritos?</string>
     <string name="btnFinalizar">Finalizar</string>
     <string name="barTrilha">Trilha</string>
+
+    <string name="temModuloUm">Módulo \n<b>Introdução ao Violão</b></string>
+    <string name="moduloTitulo">Conhecendo a anatomia \ndo violão</string>
+    <string name="status">Em andamento</string>
 </resources>

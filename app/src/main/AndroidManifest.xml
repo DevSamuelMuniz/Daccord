@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Ichords"
         tools:targetApi="31">
         <activity
+            android:name=".modulo_um"
+            android:exported="false" />
+        <activity
             android:name=".toolbarvolta"
             android:exported="false" />
         <activity

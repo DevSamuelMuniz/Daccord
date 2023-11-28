@@ -21,7 +21,8 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:src="@drawable/violaotrilha"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            tools:layout_editor_absoluteX="0dp" />
 
         <include
             android:id="@+id/toolbar"
@@ -156,26 +157,20 @@
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="@+id/modulo8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.687"
+            app:layout_constraintHorizontal_bias="0.685"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.738"
+            app:layout_constraintVertical_bias="0.817"
             app:srcCompat="@drawable/logotrilha" />
 
         <ImageButton
-            android:id="@+id/modulo10"
-            android:layout_width="80.77dp"
-            android:layout_height="87.69dp"
-            android:adjustViewBounds="true"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
             android:background="@android:color/transparent"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/modulo9"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.472"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.329"
-            app:srcCompat="@drawable/logotrilha" />
+            android:src="@drawable/conteudo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="90dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

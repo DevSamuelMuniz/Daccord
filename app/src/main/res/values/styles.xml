@@ -9,4 +9,7 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="borda">
+        <item name="android:background">@color/blue</item>
+    </style>
 </resources>
