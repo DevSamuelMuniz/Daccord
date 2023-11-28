@@ -54,5 +54,5 @@ dependencies {
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("me.relex:circleindicator:2.1.6")
     implementation ("androidx.core:core-splashscreen:1.0.0-beta02")
-    implementation ("com.android.support:recyclerview-v7:28.0.0")
+
 }
