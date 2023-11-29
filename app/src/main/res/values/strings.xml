@@ -12,11 +12,13 @@
     <string name="txt_resultado_teste"><b>Parabéns!</b>\n Você finalizou o teste e começará a trilha de conhecimento a partir do \n<b>módulo 1</b></string>
     <string name="btn_resultado_teste">Ir para trilha</string>
 
+    //Questões
     <string name="question_1"><b>Você</b> já toca ou tocou <b>violão?</b></string>
     <string name="question_2"> <b>Quais</b> acordes <b>você conhece ou já tocou?</b></string>
     <string name="question_3"><b>Qual é o seu</b> nível de experiência <b>em leitura de cifras ou tablaturas?</b></string>
     <string name="question_4"><b>Você tem algum conhecimento prévio sobre</b> teoria musical?</string>
 
+    //Perguntas
     <string name="txt_pergunta"><b>Quais são seus estilos</b> musicais favoritos?</string>
     <string name="titulo1"><b>Conhecendo a anotomia \ndo violão</b></string>
     <string name="perguntaEstilo"><b>Quais são seus estilos</b> musicais favoritos?</string>
@@ -30,4 +32,8 @@
     <string name="moduloTitulo3">Segurando o violão</string>
     <string name="moduloTitulo4">Vamos praticar!</string>
     <string name="tituloTrilha">Trilha</string>
+
+    //String da tela Aula1Modulo1
+    <string name="txt_aula1modulo1">Tocando com <font color="#2747BE">Partitura</font></string>
+    <string name="btn_aula1modulo1">Avançar</string>
 </resources>

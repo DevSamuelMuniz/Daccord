@@ -14,10 +14,6 @@ class MainActivity : AppCompatActivity() {
         const val EMAIL_KEY_EXTRA = "98392h37h923e-1093ie"
     }
 
-
-
-
-
     private lateinit var imageButton: ImageButton
     private var isFirstClick = true
 
