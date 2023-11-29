@@ -16,6 +16,7 @@ tools:context=".IntroActivity">
 
 
 <TextView
+    android:textStyle="bold"
     android:id="@+id/questionTextView"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
