@@ -9,7 +9,7 @@ import androidx.constraintlayout.widget.ConstraintSet.Layout
 
 class modulo_um : AppCompatActivity() {
     private lateinit var voltar: ImageButton
-    private lateinit var aula: Layout
+    private lateinit var includedLayout: Layout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
