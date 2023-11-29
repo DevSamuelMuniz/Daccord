@@ -58,7 +58,7 @@
             android:layout_height="54dp"
             android:padding="70dp"
             android:rotation="180"
-            android:layout_marginLeft="280dp"
+            android:layout_marginStart="280dp"
             android:layout_marginTop="60dp"
             android:background="@color/white"
             android:scaleType="centerInside"

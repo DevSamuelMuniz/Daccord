@@ -56,7 +56,7 @@ class IntroActivity : AppCompatActivity() {
         updateQuestion()
 
         nextButton.setOnClickListener {
-            if (currentQuestionIndex < questions.size) {
+            if (currentQuestionIndex < questions.size -1) {
                 currentQuestionIndex++
                 updateQuestion()
 
@@ -81,10 +81,7 @@ class IntroActivity : AppCompatActivity() {
             button3.text = optionsForCurrentQuestion[2]
             button4.text = optionsForCurrentQuestion[3]
 
-            button1.isChecked = false
-            button2.isChecked = false
-            button3.isChecked = false
-            button4.isChecked = false
+            answerRadioGroup.clearCheck()
 
             nextButton.isEnabled = false
         }

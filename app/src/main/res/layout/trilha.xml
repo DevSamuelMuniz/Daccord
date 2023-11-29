@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
     android:background="@drawable/backgroudtrilha"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@id/backButton"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,14 +32,10 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:src="@drawable/violaotrilha"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            tools:layout_editor_absoluteX="0dp" />
-
-        <include
-            android:id="@+id/toolbar"
-            layout="@layout/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <ImageButton
             android:id="@+id/modulo1"
@@ -175,18 +182,43 @@
             app:layout_constraintVertical_bias="0.817"
             app:srcCompat="@drawable/paleta_btn_nove" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="26dp"
-            android:background="@android:color/transparent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/conteudo"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            tools:layout_editor_absoluteX="0dp"
-            tools:ignore="MissingConstraints" />
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
+
+
+
+    <include
+        android:id="@+id/backButton"
+        layout="@layout/widgets_arrow_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloTrilha"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/conteudo"
+        app:layout_constraintTop_toBottomOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

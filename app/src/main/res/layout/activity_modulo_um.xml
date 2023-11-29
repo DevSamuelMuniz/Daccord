@@ -7,9 +7,9 @@
     tools:context=".modulo_um">
 
     <include
-        android:id="@+id/toolbarvoltaar"
-        layout="@layout/activity_toolbarvolta"
-        android:layout_width="match_parent"
+        android:id="@+id/arrowBack"
+        layout="@layout/widgets_arrow_back"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -25,11 +25,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarvoltaar"
+        app:layout_constraintTop_toBottomOf="@id/arrowBack"
         tools:ignore="MissingConstraints" />
 
     <include
-        android:id="@+id/ctnModulo"
+        android:id="@+id/clModulo1"
         layout="@layout/modulo_um_rv"
         android:layout_width="349dp"
         android:layout_height="130dp"
@@ -45,7 +45,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline14"
         app:layout_constraintStart_toStartOf="@id/guideline14"
-        app:layout_constraintTop_toBottomOf="@+id/ctnModulo" />
+        app:layout_constraintTop_toBottomOf="@+id/clModulo1" />
 
     <include
         android:id="@+id/ctnModulo3"
