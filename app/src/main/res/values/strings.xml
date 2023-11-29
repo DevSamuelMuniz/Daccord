@@ -27,4 +27,6 @@
     <string name="moduloTitulo">Conhecendo a anatomia \ndo violão</string>
     <string name="status">Em andamento</string>
     <string name="moduloTitulo2">Aprendendo a postura \ncorreta</string>
+    <string name="moduloTitulo3">Segurando o violão</string>
+    <string name="moduloTitulo4">Vamos praticar!</string>
 </resources>
