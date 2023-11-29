@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.898"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_um" />
 
         <ImageButton
             android:id="@+id/modulo2"
@@ -58,7 +58,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.913"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_dois" />
 
         <ImageButton
             android:id="@+id/modulo3"
@@ -73,7 +73,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.921"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_tres" />
 
         <ImageButton
             android:id="@+id/modulo4"
@@ -88,7 +88,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.906"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_quatro" />
 
         <ImageButton
             android:id="@+id/modulo5"
@@ -103,7 +103,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.844"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_cinco" />
 
         <ImageButton
             android:id="@+id/modulo6"
@@ -118,7 +118,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.975"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_seis" />
 
         <ImageButton
             android:id="@+id/modulo7"
@@ -133,7 +133,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.84"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_sete" />
 
         <ImageButton
             android:id="@+id/modulo8"
@@ -148,7 +148,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.928"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_oito" />
+
+
+        <Button
+            android:id="@+id/modulo10"
+            android:layout_width="82dp"
+            android:layout_height="71dp"
+            android:background="@android:color/transparent"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="204dp" />
 
         <ImageButton
             android:id="@+id/modulo9"
@@ -163,7 +172,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.817"
-            app:srcCompat="@drawable/logotrilha" />
+            app:srcCompat="@drawable/paleta_btn_nove" />
 
         <ImageButton
             android:id="@+id/imageButton4"
