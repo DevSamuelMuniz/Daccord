@@ -13,9 +13,10 @@ import androidx.core.content.ContextCompat
 import android.view.Gravity
 import android.animation.Animator
 import android.graphics.Typeface
+import com.example.ichords.R
 
 
-class MainActivity : AppCompatActivity() {
+class conteudo : AppCompatActivity() {
 
     private val descriptions = listOf(
         "Neste módulo inicial você irá conhecer a anatomia do violão, aprender a postura correta e praticar como segurar o seu instrumento.",
@@ -58,9 +59,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.conteudo)
 
-        val container = findViewById<LinearLayout>(R.id.container)
+        val container = findViewById<LinearLayout>(R.id.containerConteudo)
 
         for (i in descriptions.indices) {
             val listItem = createListItem(nomeItem[i], descriptions[i], imageResources[i])
