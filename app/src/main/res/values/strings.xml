@@ -36,4 +36,16 @@
     //String da tela Aula1Modulo1
     <string name="txt_aula1modulo1">Tocando com <font color="#2747BE">Partitura</font></string>
     <string name="btn_aula1modulo1">Avançar</string>
+
+    //strings recyclerview titulo
+    <string name="tituloUm">Conhecendo a anatomia do violão</string>
+    <string name="titulodois">Aprendendo a postura correta</string>
+    <string name="titulotres">Segurando o violão</string>
+    <string name="tituloquatro">Vamos praticar!</string>
+
+    //string recyclerview progresso
+    <string name="progressoEmAndamento">Em andamento</string>
+    <string name="progressoConcluido">Concluido</string>
+    <string name="progresso">Em progresso</string>
+
 </resources>
