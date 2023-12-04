@@ -13,13 +13,13 @@
         android:theme="@style/Theme.Ichords"
         tools:targetApi="31">
         <activity
+            android:name="com.example.scrollviewtets.conteudo"
+            android:exported="false"/>
+        <activity
             android:name=".SubMode"
             android:exported="false" />
         <activity
             android:name=".Aula1Modulo1"
-            android:exported="false" />
-        <activity
-            android:name=".rv_modulos"
             android:exported="false" />
         <activity
             android:name=".modulo_um"

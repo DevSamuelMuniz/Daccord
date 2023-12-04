@@ -1,9 +1,7 @@
 package com.example.ichords
 
 import android.content.Intent
-import android.nfc.Tag
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -11,10 +9,12 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.OnBackPressedDispatcher
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ichords.modelSubmode.itemSubmode
+import com.example.scrollviewtets.conteudo
 
 class trilha : AppCompatActivity() {
     private lateinit var modulo1: ImageView
     private lateinit var voltar: ImageButton
+    private lateinit var listaConteudo: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +22,9 @@ class trilha : AppCompatActivity() {
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true){
             override fun handleOnBackPressed() {
-                finish()
+                val intent = Intent(this@trilha, MainActivity::class.java)
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                startActivity(intent)
             }
         })
 
@@ -33,11 +35,19 @@ class trilha : AppCompatActivity() {
             startActivity(intent)
         }
 
+        listaConteudo = findViewById(R.id.listaConteudo)
+
+        listaConteudo.setOnClickListener{
+            val intent = Intent(this, conteudo::class.java)
+            startActivity(intent)
+        }
+
         voltar = findViewById(R.id.voltarBtn)
 
         voltar.setOnClickListener{
-            onBackPressedDispatcher.onBackPressed()
+            val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            startActivity(intent)
         }
-
     }
 }

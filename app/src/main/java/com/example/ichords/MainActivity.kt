@@ -1,6 +1,8 @@
 package com.example.ichords
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
@@ -15,7 +17,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private lateinit var imageButton: ImageButton
-    private var isFirstClick = true
+    private lateinit var sharedPref: SharedPreferences
+    private lateinit var editor: SharedPreferences.Editor
 
     override fun onCreate(savedInstanceState: Bundle?) {
         val splashScreen = installSplashScreen()
@@ -24,12 +27,16 @@ class MainActivity : AppCompatActivity() {
 
         imageButton = findViewById(R.id.botaoTrilha)
 
+        sharedPref = getSharedPreferences(PREFERENCES_NAME, Context.MODE_PRIVATE)
+        editor = sharedPref.edit()
+
         imageButton.setOnClickListener {
+            val isFirstClick = sharedPref.getBoolean("isFirstClick", true)
             if (isFirstClick) {
                 val intent = Intent(this, popup1::class.java)
                 startActivity(intent)
                 overridePendingTransition(0,0)
-                isFirstClick = false
+                editor.putBoolean("isFirstClick", false).apply()
             } else {
                 val intent = Intent(this, trilha::class.java)
                 startActivity(intent)

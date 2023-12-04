@@ -68,6 +68,7 @@ class conteudo : AppCompatActivity() {
             container.addView(listItem)
         }
     }
+    
 
     private fun createListItem(itemName: String, description: String, imageResources: Int): View {
         val context = this
@@ -84,8 +85,8 @@ class conteudo : AppCompatActivity() {
 
         val textView = TextView(context)
         textView.text = itemName
-        textView.setPadding(0, 0, 0, 0)
-        textView.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark))
+        textView.setPadding(0, 16, 0, 0)
+        textView.setTextColor(ContextCompat.getColor(context, R.color.blue))
         textView.gravity = Gravity.CENTER
         textView.setTypeface(null, Typeface.BOLD)
 
@@ -96,6 +97,7 @@ class conteudo : AppCompatActivity() {
         )
 
         val imageView = ImageView(context)
+
         imageView.setImageResource(imageResources) // Use the image resource corresponding to the current item
         val imageParams = LinearLayout.LayoutParams(
             120,
@@ -182,7 +184,7 @@ class conteudo : AppCompatActivity() {
             override fun onAnimationRepeat(animation: Animator) {}
         })
 
-        valueAnimator.duration = 500
+        valueAnimator.duration = 300
         view.visibility = View.VISIBLE
         valueAnimator.start()
     }
