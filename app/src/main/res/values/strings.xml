@@ -34,7 +34,7 @@
     <string name="tituloTrilha">Trilha</string>
 
     //String da tela Aula1Modulo1
-    <string name="txt_aula1modulo1">Tocando com <font color="#2747BE">Partitura</font></string>
+    <string name="txt_aula1modulo1">Conhecendo a <b>anatomia</b> do violão</string>
     <string name="btn_aula1modulo1">Avançar</string>
 
     //strings recyclerview titulo

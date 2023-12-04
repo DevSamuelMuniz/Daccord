@@ -1,6 +1,7 @@
 package com.example.ichords.AdapterSubmode
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
@@ -19,6 +20,17 @@ class AdapterSubmode(private val context: Context, private val submodes: Mutable
     inner class SubModeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val titulosubmode = itemView.findViewById<TextView>(R.id.tituloModulo1)
         var status = itemView.findViewById<TextView>(R.id.progressoModulo1)
+
+        init {
+            itemView.setOnClickListener {
+                when (adapterPosition) {
+                    0 -> context.startActivity(Intent(context, Activity1::class.java))
+                    1 -> context.startActivity(Intent(context, Activity2::class.java))
+                    2 -> context.startActivity(Intent(context, Activity3::class.java))
+                    3 -> context.startActivity(Intent(context, Activity4::class.java))
+                }
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubModeViewHolder {

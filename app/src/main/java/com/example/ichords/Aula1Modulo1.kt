@@ -12,7 +12,7 @@ class Aula1Modulo1 : AppCompatActivity() {
         setContentView(R.layout.activity_aula1_modulo1)
 
         val videoView = findViewById<VideoView>(R.id.video_aula1modulo1)
-        val packageName = "android.resource://" + getPackageName() + "/" + R.raw.video
+        val packageName = "android.resource://" + getPackageName() + "/" + R.raw.aulaum
         val uri = Uri.parse(packageName)
         videoView.setVideoURI(uri)
 
