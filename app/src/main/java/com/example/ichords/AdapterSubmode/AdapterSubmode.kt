@@ -11,6 +11,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.ichords.R
 import com.example.ichords.modelSubmode.itemSubmode
 import android.content.res.ColorStateList
+import com.example.ichords.Aula1Modulo1
+import com.example.ichords.Aula2Modulo1
+import com.example.ichords.Aula3Modulo1
+import com.example.ichords.Aula4Modulo1
+import com.example.ichords.Aula5Modulo1
 
 
 class AdapterSubmode(private val context: Context, private val submodes: MutableList<itemSubmode>): RecyclerView.Adapter<AdapterSubmode.SubModeViewHolder>(){
@@ -24,10 +29,11 @@ class AdapterSubmode(private val context: Context, private val submodes: Mutable
         init {
             itemView.setOnClickListener {
                 when (adapterPosition) {
-                    0 -> context.startActivity(Intent(context, Activity1::class.java))
-                    1 -> context.startActivity(Intent(context, Activity2::class.java))
-                    2 -> context.startActivity(Intent(context, Activity3::class.java))
-                    3 -> context.startActivity(Intent(context, Activity4::class.java))
+                    0 -> context.startActivity(Intent(context, Aula1Modulo1::class.java))
+                    1 -> context.startActivity(Intent(context, Aula2Modulo1::class.java))
+                    2 -> context.startActivity(Intent(context, Aula3Modulo1::class.java))
+                    3 -> context.startActivity(Intent(context, Aula4Modulo1::class.java))
+                    4 -> context.startActivity(Intent(context, Aula5Modulo1::class.java))
                 }
             }
         }

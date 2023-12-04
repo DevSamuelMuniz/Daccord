@@ -13,8 +13,20 @@
         android:theme="@style/Theme.Ichords"
         tools:targetApi="31">
         <activity
+            android:name=".Aula5Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".Aula4Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".Aula3Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".Aula2Modulo1"
+            android:exported="false" />
+        <activity
             android:name="com.example.scrollviewtets.conteudo"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".SubMode"
             android:exported="false" />
