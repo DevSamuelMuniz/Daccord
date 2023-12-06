@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Ichords"
         tools:targetApi="31">
         <activity
+            android:name=".ResultadoQuizModulo1"
+            android:exported="false" />
+        <activity
+            android:name=".PerguntaAula5Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".PerguntaAula4Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".PerguntaAula3Modulo1"
+            android:exported="false" />
+        <activity
+            android:name=".PerguntaAula2Modulo1"
+            android:exported="false" />
+        <activity
             android:name=".Aula5Modulo1"
             android:exported="false" />
         <activity
@@ -32,12 +47,6 @@
             android:exported="false" />
         <activity
             android:name=".Aula1Modulo1"
-            android:exported="false" />
-        <activity
-            android:name=".modulo_um"
-            android:exported="false" />
-        <activity
-            android:name=".toolbarvolta"
             android:exported="false" />
         <activity
             android:name=".EstiloMusical"
@@ -66,10 +75,6 @@
         <activity
             android:name=".ResultadoTeste"
             android:exported="false" />
-        <activity
-            android:name=".BarTool"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

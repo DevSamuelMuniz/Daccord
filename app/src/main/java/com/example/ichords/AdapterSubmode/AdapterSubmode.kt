@@ -30,10 +30,7 @@ class AdapterSubmode(private val context: Context, private val submodes: Mutable
             itemView.setOnClickListener {
                 when (adapterPosition) {
                     0 -> context.startActivity(Intent(context, Aula1Modulo1::class.java))
-                    1 -> context.startActivity(Intent(context, Aula2Modulo1::class.java))
-                    2 -> context.startActivity(Intent(context, Aula3Modulo1::class.java))
-                    3 -> context.startActivity(Intent(context, Aula4Modulo1::class.java))
-                    4 -> context.startActivity(Intent(context, Aula5Modulo1::class.java))
+
                 }
             }
         }
