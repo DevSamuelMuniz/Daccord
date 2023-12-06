@@ -12,11 +12,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import android.view.Gravity
 import android.animation.Animator
+import android.content.Intent
 import android.graphics.Typeface
+import android.widget.ImageButton
+import com.example.ichords.MainActivity
 import com.example.ichords.R
 
 
 class conteudo : AppCompatActivity() {
+
+    private lateinit var voltar: ImageButton
+
 
     private val descriptions = listOf(
         "Neste módulo inicial você irá conhecer a anatomia do violão, aprender a postura correta e praticar como segurar o seu instrumento.",
@@ -66,6 +72,13 @@ class conteudo : AppCompatActivity() {
         for (i in descriptions.indices) {
             val listItem = createListItem(nomeItem[i], descriptions[i], imageResources[i])
             container.addView(listItem)
+
+            voltar = findViewById(R.id.voltarBtn)
+
+            voltar.setOnClickListener{
+                val intent = Intent(this, onBackPressedDispatcher::class.java)
+                finish()
+            }
         }
     }
     

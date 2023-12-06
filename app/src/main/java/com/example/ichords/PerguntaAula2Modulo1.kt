@@ -59,7 +59,7 @@ class PerguntaAula2Modulo1 : AppCompatActivity() {
                 updateQuestion()
 
             } else {
-                val intent = Intent(this, Aula3Modulo1::class.java)
+                val intent = Intent(this, ResultadoQuizModulo1::class.java)
                 startActivity(intent)
             }
         }

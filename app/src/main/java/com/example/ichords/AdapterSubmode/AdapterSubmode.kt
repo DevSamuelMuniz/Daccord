@@ -46,6 +46,7 @@ class AdapterSubmode(private val context: Context, private val submodes: Mutable
 
     override fun onBindViewHolder(holder: SubModeViewHolder, position: Int) {
         holder.titulosubmode.text = submodes[position].tituloSubmode
+        holder.status.text = submodes[position].status
 
         if (position % 2 == 0) {
             // If the position is even, set the backgroundTint to light blue

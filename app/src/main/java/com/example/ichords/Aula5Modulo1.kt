@@ -23,6 +23,8 @@ class Aula5Modulo1 : AppCompatActivity() {
         val packageName = "android.resource://" + getPackageName() + "/" + R.raw.aulacinco
         val uri = Uri.parse(packageName)
         videoView.setVideoURI(uri)
+        videoView.start()
+
 
         val mediaController = MediaController(this)
         videoView.setMediaController(mediaController)

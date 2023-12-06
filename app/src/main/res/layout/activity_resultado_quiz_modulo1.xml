@@ -1,9 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ResultadoQuizModulo1">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C2DDFD"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textParabens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parabéns!"
+            android:textSize="30sp"
+            android:textColor="#1D35BA"
+            android:textStyle="bold"
+            android:fontFamily="Roboto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:id="@+id/imageParabens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/violao3"
+            android:layout_below="@id/textParabens"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você passou para o próximo módulo!"
+            android:textSize="17sp"
+            android:textColor="#1D35BA"
+            android:textStyle="bold"
+            android:fontFamily="Roboto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/retangulo"
+            android:layout_below="@id/textParabens"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pontuação"
+            android:textSize="17sp"
+            android:textColor="#1D35BA"
+            android:textStyle="bold"
+            android:fontFamily="Roboto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="360dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_gravity="start"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="Roboto"
+            android:text="Caixa de ressonância"
+            android:textColor="#1D35BA"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_gravity="start"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="452dp"
+            android:fontFamily="Roboto"
+            android:text="Braço"
+            android:textColor="#1D35BA"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_gravity="start"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="504dp"
+            android:fontFamily="Roboto"
+            android:text="corda e cabeça"
+            android:textColor="#1D35BA"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/progress"
+            android:layout_below="@id/textParabens"
+            android:layout_gravity="start"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="330dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/violao"
+            android:layout_below="@id/textParabens"
+            android:layout_gravity="start"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="320dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/violao"
+            android:layout_below="@id/textParabens"
+            android:layout_gravity="start"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="370dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/violao"
+            android:layout_below="@id/textParabens"
+            android:layout_gravity="start"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="425dp"/>
+
+        <ImageButton
+            android:id="@+id/btnAvancar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textParabens"
+            android:layout_gravity="start"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="570dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="onClickAvancar"
+            android:padding="20dp"
+            android:src="@drawable/btnavancar" />
+
+
+    </RelativeLayout>
+</ScrollView>

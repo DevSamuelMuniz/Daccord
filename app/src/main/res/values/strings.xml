@@ -47,5 +47,6 @@
     <string name="progressoEmAndamento">Em andamento</string>
     <string name="progressoConcluido">Concluido</string>
     <string name="progresso">Em progresso</string>
+    <string name="moduloIntro">Módulo\n<b>Introdução ao Violão</b> </string>
 
 </resources>

@@ -22,6 +22,7 @@ class Aula1Modulo1 : AppCompatActivity() {
         val videoView = findViewById<VideoView>(R.id.video_aula1modulo1)
         val uri = Uri.parse("android.resource://${packageName}/${R.raw.aulaum}")
         videoView.setVideoURI(uri)
+        videoView.start()
 
         val mediaController = MediaController(this)
         videoView.setMediaController(mediaController)
