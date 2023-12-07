@@ -1,17 +1,5 @@
 # Residência segundo período - ichord - Daccord
 
-Iniciativa para tornar o aprendizado mais descomplicado.
-Pessoas que:
-Se frustram com os métodos existentes;
-Não têm tanto tempo para longas sessões;
-
-Sanar as dores de quem está aprendendo
-
-Tornar o aprendizado mais eficiente
-Obter resultados mais rapidamente
-“Rodinhas de bicicleta”
-“Pegar na mão” e mostrar que o caminho não é complicado como parece
-
 ## 🚀 Começando
 
 Para adiquirir o código para uso você pode baixar diretamente no github ou clonar com git.
@@ -48,14 +36,22 @@ https://code.sololearn.com/
 
 ## 📦 Implantação
 
-Para você implementar esse código ao seu projeto você precisa clonar ou baixar o repositório, importar no Android Studio, análisar o código, identificar componentes reutilizáveis, copiar e colar ou usar dependências, resolver dependências e configurações, testar e integrar, gerenciar as atualizações, ATENÇÃO às licenças e Direitos Autorais.
+Para você implementar esse código ao seu projeto você precisa:
+
+*Clonar ou baixar o repositório.
+*Importar no Android Studio.
+*Análisar o código, identificar componentes reutilizáveis.
+*Copiar e colar ou usar dependências.
+*Resolver dependências e configurações.
+*Testar, integrar e gerenciar as atualizações.
+
+#ATENÇÃO às licenças e Direitos Autorais.
 
 ## 🛠️ Construído com
 
-Android Studio, Kotlin, Xml, Gradle, 
+Android Studio, Kotlin, Xml, Gradle,
 
-* [Android Studio]([http://www.dropwizard.io/1.0.2/docs/](https://developer.android.com/studio/install?hl=pt-br
-)) IDE usada, no próprio Android Studio as demais ferramentas já estão presentes.
+* [Android Studio]([http://www.dropwizard.io/1.0.2/docs/](https://developer.android.com/studio/install?hl=pt-br) IDE usada, no próprio Android Studio as demais ferramentas já estão presentes.
 
 ## 🖇️ Colaborando
 
@@ -84,7 +80,11 @@ Este projeto está sob a licença da equipe.
 
 ## 🎁 Expressões de gratidão
 
-* 
+* Por fim, um agradecimento especial a todas as pessoas que apoiaram e incentivaram este projeto desde o início. Seu apoio foi uma fonte constante de motivação e inspiração.
+
+Este projeto é o resultado do trabalho árduo, colaboração e apoio de uma comunidade incrível. Sintam-se todos valorizados e reconhecidos por suas contribuições significativas.
+
+Muito obrigado a todos!
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+⌨️ com ❤️
