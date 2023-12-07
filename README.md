@@ -36,58 +36,54 @@ O Android Studio disponibiliza a instalação na própria IDE, porém pode-se us
 
 ### 🔩 Analise os testes de ponta a ponta
 
-
-```
 O usuário tem um nova funcionalidade no aplicativo ichord que é a trilha de conhecimento, com disponibilidade da primeira aula básica, evoluindo no seu aprendizado dinâmico.
-```
 
 ### ⌨️ E testes de estilo de codificação
 
-Explique que eles verificam esses testes e porquê.
+Testes de estilo de codificação são ferramentas que ajudam a garantir que um código siga um conjunto específico de diretrizes ou padrões, o que é crucial para a legibilidade, manutenção e colaboração em projetos de software. Aqui eu irei disponibilizar o site abaixo que você pode usar para realizar testes.
 
 ```
-Dar exemplos
+https://code.sololearn.com/
 ```
 
 ## 📦 Implantação
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+Para você implementar esse código ao seu projeto você precisa clonar ou baixar o repositório, importar no Android Studio, análisar o código, identificar componentes reutilizáveis, copiar e colar ou usar dependências, resolver dependências e configurações, testar e integrar, gerenciar as atualizações, ATENÇÃO às licenças e Direitos Autorais.
 
 ## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
+Android Studio, Kotlin, Xml, Gradle, 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+* [Android Studio]([http://www.dropwizard.io/1.0.2/docs/](https://developer.android.com/studio/install?hl=pt-br
+)) IDE usada, no próprio Android Studio as demais ferramentas já estão presentes.
 
 ## 🖇️ Colaborando
 
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+ [ Porto Digital](https://www.portodigital.org/)
+[  Faculdade Senac Pernambuco ](https://faculdadesenacpe.edu.br/)  
+[ Maxwell Silvestre ](https://instagram.com/maxwellsilvestre?igshid=OGQ5ZDc2ODk2ZA==)
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+VERSÃO BETA 0.8
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+[Samuel Muniz](https://www.linkedin.com/in/samuel-muniz-4b5a3126a/)
+[Ana Andrade ](https://www.linkedin.com/in/ana-andrade-60ba0420b/)Vinicius Fernando
+[Manoel Faustino](https://www.linkedin.com/in/manoelfaustino/)
+[Beatriz Cavalcante](https://www.linkedin.com/in/beatriz-cavalcante-554542271/)
+[José Néto](https://www.linkedin.com/in/netoodev/)
+[Melksedec Silva](https://www.linkedin.com/in/melksedec-silva-400b54185/)
+[Mariah Cecília](https://www.linkedin.com/in/mariah-alves-a937a2246/)
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença da equipe.
 
 ## 🎁 Expressões de gratidão
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+
 
 
 ---
