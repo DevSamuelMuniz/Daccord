@@ -51,7 +51,7 @@ Para você implementar esse código ao seu projeto você precisa:
 
 Android Studio, Kotlin, Xml, Gradle,
 
-* [Android Studio]([http://www.dropwizard.io/1.0.2/docs/](https://developer.android.com/studio/install?hl=pt-br) IDE usada, no próprio Android Studio as demais ferramentas já estão presentes.
+* [Android Studio]([http://www.dropwizard.io/1.0.2/docs/](https://developer.android.com/studio/install?hl=pt-br)) IDE usada, no próprio Android Studio as demais ferramentas já estão presentes.
 
 ## 🖇️ Colaborando
 
