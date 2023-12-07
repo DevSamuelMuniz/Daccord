@@ -65,21 +65,21 @@ VERSÃO BETA 0.8
 
 ## ✒️ Autores
 
-[Samuel Muniz](https://www.linkedin.com/in/samuel-muniz-4b5a3126a/)
+[Samuel Muniz](https://www.linkedin.com/in/samuel-muniz-4b5a3126a/), 
 
-[Ana Andrade ](https://www.linkedin.com/in/ana-andrade-60ba0420b/)
+[Ana Andrade ](https://www.linkedin.com/in/ana-andrade-60ba0420b/), 
 
-[Vinicius Fernando](https://www.linkedin.com/in/vinicius-fernando-ba9a83273/)
+[Vinicius Fernando](https://www.linkedin.com/in/vinicius-fernando-ba9a83273/), 
 
-[Manoel Faustino](https://www.linkedin.com/in/manoelfaustino/)
+[Manoel Faustino](https://www.linkedin.com/in/manoelfaustino/), 
 
-[Beatriz Cavalcante](https://www.linkedin.com/in/beatriz-cavalcante-554542271/)
+[Beatriz Cavalcante](https://www.linkedin.com/in/beatriz-cavalcante-554542271/), 
 
-[José Néto](https://www.linkedin.com/in/netoodev/)
+[José Néto](https://www.linkedin.com/in/netoodev/), 
 
-[Melksedec Silva](https://www.linkedin.com/in/melksedec-silva-400b54185/)
+[Melksedec Silva](https://www.linkedin.com/in/melksedec-silva-400b54185/), 
 
-[Mariah Cecília](https://www.linkedin.com/in/mariah-alves-a937a2246/)
+[Mariah Cecília](https://www.linkedin.com/in/mariah-alves-a937a2246/), 
 
 ## 📄 Licença
 
